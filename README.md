@@ -2,10 +2,12 @@
 
 A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
 
+Uses pages router (my preference, so that I can have page exit transitions).
+
 ## Usage
 
-```bash
-npx create-next-app -e https://github.com/shadcn/next-template
+```sh
+npx create-next-app -e https://github.com/jrddp/next-template
 ```
 
 ## Features
@@ -17,6 +19,6 @@ npx create-next-app -e https://github.com/shadcn/next-template
 - Dark mode with `next-themes`
 - Tailwind CSS class sorting, merging and linting.
 
-## License
+## Acknowledgements
 
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
+- Originally based on [shadcn's next-template](https://github.com/shadcn/next-template)
