@@ -12,9 +12,9 @@ export default function App({ Component, pageProps, router }: AppProps) {
   return (
     <main className={cn("font-sans antialiased", fontSans.variable)}>
       <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-        <div className="relative flex flex-col min-h-screen">
+        <div className="relative flex min-h-screen flex-col">
           <SiteHeader />
-          <div className="flex-1">
+          <div className="h-screen-without-header">
             <Component key={router.route} {...pageProps} />
           </div>
         </div>
